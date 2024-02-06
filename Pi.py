@@ -15,7 +15,7 @@ print("Initialise...")
 #import re
 
 from mpmath import *
-mp.dps = 100 #Configure DECIMAL
+mp.dps = 1000 #Configure DECIMAL
 #@manual{mpmath,
 #  key     = {mpmath},
 #  author  = {The mpmath development team},
