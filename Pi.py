@@ -1,11 +1,10 @@
 #!/usr/bin/python
 ## Pi
-# Takes an input and return all primes up to input
 # Pi.py script
 # Source Code produced by Willtech 2023
 # v0.1 hand coded by HRjJ
 
-#Pi.py calculates Pi to the number of decimal places set by mp.dps
+#Pi.py calculates Pi using the method provided by mpmpath.org to the number of decimal places set by mp.dps
 import time
 tt = time.time()
 
@@ -15,7 +14,7 @@ print("Initialise...")
 #import re
 
 from mpmath import *
-mp.dps = 1000 #Configure DECIMAL
+mp.dps = 100 #Configure DECIMAL
 #@manual{mpmath,
 #  key     = {mpmath},
 #  author  = {The mpmath development team},
