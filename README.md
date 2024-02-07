@@ -27,6 +27,8 @@ Initialise...
 --- 6322.15262889862060546875 Seconds ---
 ```
 
+In testing it is not any faster with `mpiexec`.
+
 ## Reference
 
 <p class="apa-reference style="padding-left: 36px; text-indent: -36px;">The mpmath development team. (2023). mpmath - Python library for arbitrary-precision floating-point arithmetic. Retrieved February 2, 2024, from https://mpmath.org/</p>
